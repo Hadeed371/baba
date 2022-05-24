@@ -424,7 +424,7 @@ def yo_ndak_tau_ko_tanya_saia():
     os.system('rm -rf YNTKTS.txt')
     _asu_ = raw_input('\n [%s?%s] want to use your cellphone user agent [Y/t]: ' % (O, N))
     if _asu_ == '':
-        print '\n %s[%s%s] Gak boleh kosong Kentod' % (N, M, N)
+        print '\n %] Gak boleh kosong Kentod' % (N, M, N)
         yo_ndak_tau_ko_tanya_saia()
     elif _asu_ in ('Y', 'y'):
         jalan('\n %s *%s you will be redirected to the website after being redirected to the website.\n  %s*%s %sMY USER AGENT%s ................................' % (O, N, O, N, H, N))
@@ -494,7 +494,7 @@ class __crack__:
                                 try:
                                     kimochi = ikeh.split('|')[1]
                                     __mawan__.submit(self.__api__, kimochi, ysc)
-                                continue
+                                continue(...)
                                 continue
 
                         os.remove(self.apk)
